@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>wewnetrzny arkusz stylow</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style>
+ h1 {
+ color: purple;
+ font-size: 30px;
+ }
+</style>
+</head>
+<body>
+<h1><li>Gdzie jest wstawiany</li></h1> <br>
+Styl umieszcza się zawsze w sekcji nagłówkowej dokumentu, pomiędzy znacznikami <head> i </head>. Jest przydatny, gdy na stronie występuje wiele tych samych elementów, które chcemy sformatować w jednakowy sposób, nadając im inne właściwości niż domyślne.  <br>
+<h1><li>składnia teoretyczna (w ramce, konieczne wcięcia)</li></h1> <br>
+<textarea rows="35" cols=50">
+<head>
+      (...)
+    <style type="text/css">
+   /* <![CDATA[ */
+     selektor1 { cecha: wartość; cecha2: wartość2... }
+     selektor2 { cecha: wartość; cecha2: wartość2... }
+     (...)
+ /* ]]> */
+ </style>
+    (...)
+</head>
+</textarea> <br>
+<h1><li>Jakie mogą być selektory</li></h1> <br>
+Gdzie: wytłuszczono elementy składowe wewnętrznego arkusza stylów, a w miejscu kropek (…) można dodać kolejne instrukcje.
+Selektorem może być niemal dowolny znacznik, np. p (akapit), h1 (tytuł) czy td (komórka tabeli). To właśnie elementy, które w kodzie źródłowym znajdują się pomiędzy tymi znacznikami, otrzymują atrybuty formatowania określone w arkuszu stylów.
+<br>
+
+<h1><li>Jakie mogą być cechy i wartości.</li></h1> <br>
+Jako cecha w deklaracji stylu określamy, które atrybuty formatowania chcemy zastosować (zostaną omówione w kolejnych rozdziałach).
+
+Natomiast jako wartość wpisujemy konkretną wartość przypisaną do danego atrybutu.
+
+Warto pamiętać, że jednemu selektorowi można nadać kilka atrybutów (cech), które należy oddzielić średnikami. <br>
+
+
+</body>
+</html>
