@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Ulenberg</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style>
+ h5 {
+ color: purple;
+ font-size: 30px;
+ }
+</style>
+</head>
+<body>
+<h5><li>Opis znacznika DIV (jaki to element, składnia →w ramce, zastosowanie, opis
+treotyczny, atrybuty→ tylko wymień, opisz tylko ALIGN).</li></h5> <br>
+Znacznik div><br>
+<textarea cols="40" rows="5">
+<div style="cecha: wartość; cecha2: wartość2...">...</div>
+</textarea> <br>
+1. Element div jest elementem blokowym – może zawierać zwykły tekst oraz inne elementy blokowe. Służy do tworzenia obszerniejszych struktur na stronie. <br>
+2. Z div korzysta się wtedy, gdy chcemy wyodrębnić konkretne bloki w układzie dokumentu, np. lewą kolumnę, menu nawigacyjne czy stopkę. <br>
+3. Umożliwia tworzenie sekcji (bloków) w pliku HTML, które można łatwo formatować za pomocą arkusza stylów CSS. <br>
+4. Div odgrywa ważną rolę w grupowaniu różnych elementów i pozycjonowaniu fragmentów dokumentu. <br>
+
+<table border="1">
+<tr>
+<td> ALIGN="ustawienie"
+Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane):
+ center - wyśrodkowanie
+ justify - wyrównanie do obu marginesów jednocześnie
+ left - wyrównanie do lewej
+ right - wyrównanie do prawej</td>
+</tr>
+<tr>
+<td> CLASS="klasa"</td>
+</tr>
+<tr>
+<td>DIR="kierunek" </td></tr>
+<tr><td>ID="nazwa"
+ </td></tr>
+<tr>
+<td>LANG="język"</td>
+</tr>
+<tr>
+<td>STYLE="styl"</td>
+</tr>
+<tr>
+<td>TITLE="tekst"
+</td>
+</tr>
+</table>
+<br>
+<h5><li>Opis znacznika SPAN (jaki to element, składnia →w ramce, zastosowanie, opis
+treotyczny).</li></h5> <br>
+Znacznik SPAN><br>
+1.Span jest elementem liniowym, co oznacza, że nie zaczyna nowej linii w dokumencie i układa się w jednej linii z innymi elementami. Może zawierać zwykły tekst i inne elementy liniowe, ale nie może zawierać elementów blokowych. <br>
+2. Gdy chcemy wyróżnić fragment tekstu w paragrafie, np. zmieniając jego kolor na czerwony, używamy znacznika span, ponieważ element div (blokowy) nie może znajdować się wewnątrz paragrafu. <br>
+3. W znaczniku div można oczywiście umieszczać także elementy span, ponieważ są to elementy liniowe.<br> <br>
+Składnia teoretyczna: <br>
+<textarea cols="25" rows="5">
+<span style="cecha1: wartość1; cecha2: wartość2...">...</span>
+</textarea> <br>
+Opis:
+Znacznik span.../span służy do obejmowania wybranego fragmentu tekstu lub elementów wyświetlanych w jednej linii. Można nim objąć np. pogrubiony tekst, kursywę czy inne elementy liniowe, które chcemy wyróżnić.
+
+Jest idealny do stosowania stylów CSS, ponieważ sam z siebie nie wprowadza żadnego formatowania – nie wpływa na układ strony ani wygląd, dopóki nie zostaną mu przypisane style. <br>
+<h5><li>Różnica między znacznikami DIV i SPAN.</li></h5> <br>
+Różnica między znacznikami DIV i SPAN
+Oba znaczniki służą do wyodrębniania części struktury dokumentu, najczęściej po to, by nadać im styl za pomocą CSS.<br>
+
+span używamy do zaznaczania elementów liniowych, np. fragmentów tekstu wewnątrz paragrafu.<br>
+
+div służy do tworzenia struktur blokowych, takich jak kolumny, nagłówki, stopki – czyli większe sekcje strony. <br>
+
+Różnice w wyświetlaniu:<br>
+
+div domyślnie wyświetlany jest jako blokowy (zajmuje całą szerokość).<br>
+
+span domyślnie wyświetlany jest w linii (obok innych elementów).<br>
+<h5><li>Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.</li></h5> <br>
+
+Rodzaje elementów/tagów ze względu na sposób wyświetlania w
+przeglądarce. <br>
+1. liniowe – span, em, strong <br>
+2. blokowe – div, p, article <br>
+3. liniowo-blokowe – input, textarea <br>
+<ol>Elementy liniowe nie powodują przejścia do nowej linii – są wyświetlane obok siebie, w jednej linii. Przeglądarka domyślnie ustawia im właściwość CSS display: inline.</ol> <br>
+<ol>Elementy blokowe zachowują się jak pudełka ustawiane jeden pod drugim – każdy z nich zajmuje całą dostępną szerokość i zaczyna się od nowej linii. Przeglądarka domyślnie przypisuje im właściwość CSS display: block.</ol> <br>
+<ol>Elementy liniowo-blokowe łączą cechy elementów liniowych i blokowych.
+Wyświetlają się obok siebie jak elementy liniowe (nie przechodzą do nowej linii),
+ale – w przeciwieństwie do nich – można im nadać szerokość i wysokość, jak elementom blokowym.
+
+Dobrym przykładem jest znacznik textarea, który mimo że może stać w jednej linii z innymi elementami, wyświetla się jako większy prostokąt.
+
+Domyślnie przeglądarka ustawia im właściwość CSS display: inline-block.</ol>
+
+
+</body>
+</html>
+<!-- Maksymilian Ulenberg -->
