@@ -1,0 +1,19 @@
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+#gruby_ulenberg,
+#gruby_ulenberg_2,
+#gruby_ulenberg_3,
+#gruby_ulenberg_4 {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+#dlawszyskich_ulenberg {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+}

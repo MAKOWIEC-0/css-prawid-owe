@@ -1,0 +1,39 @@
+p#pogrubienie_ulenberg {
+    font-size: 33px;
+    color: #945BC9;
+    font-weight: bold;
+}
+
+p#pochylona_ulenberg {
+    font-size: 38pt;
+    color: #e4bf65;
+    font-style: italic;
+}
+
+p#index_gorny_ulenberg {
+    font-size: 1.3cm;
+    color: #a88d15;
+    vertical-align: super;
+}
+
+p#index_dolny_ulenberg {
+    font-size: 2.1cm;
+    color: rgb(27% 95%, 87%);
+    vertical-align: sub;
+}
+
+p#mono_ulenberg {
+    font-size: 43px;
+    color: #28dd65;
+    font-family: monospace;
+}
+
+p#powiekszenie_ulenberg {
+    font-size: 150%;
+    color: #623D97;
+}
+
+p#pomniejszenie_ulenberg {
+    font-size: 80%;
+    color: rgb(78%, 63%, 20%);
+}
