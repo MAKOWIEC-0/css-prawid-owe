@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+    <title>Zadanie 32</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        th {
+            width: 35%;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+<h1>Model pudełkowy</h1> <br>
+Każdy element w dokumencie HTML, otacza się prostokątnym obszarem zwanym pudełkiem 
+(ang. Box model). Pudełko składa się z kilku warstw.
+<br>
+<h1>Zawartość modelu pudełkowego: </h1>
+<table>
+        <tr>
+            <th>Zawartość</th>
+            <th>Znaczenie pojęcie uzupełnia uczeń</th>
+        </tr>
+        <tr>
+            <td>content</td>
+            <td>zawartość elementu  (np.: tekst, obrazek)</td>
+        </tr>
+        <tr>
+            <td>padding</td>
+            <td> otaczające marginesy wewnętrzne, odstęp między obramowaniem i zawartością elementu </td>
+        </tr>
+        <tr>
+            <td>border</td>
+            <td> obramowania wokół zawartości elementu, ma styl i kolor.</td>
+        </tr>
+        <tr>
+            <td>margin</td>
+            <td> marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół ramki, który nie ma koloru tła i jest przeźroczysty. </td>
+        </tr>
+        <tr>
+		</table>
+            <h1><td>Uwagi</td></h1>
+            <td>
+                <ol>
+                    <li>Padding, border i margin mogą mieć zerową wartość.</li>
+                    <li>Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem 
+marginesów zewnętrznych, które zawsze są przezroczyste (transparent).</li>
+                </ol>
+            </td>
+        </tr>
+        <h1>Grafika obrazujaca model pudełkowy</h1> <br> 
+        <img src="Model pudełkowy obraz.png">
+        <h1>Różnica pomiędzy paddingiem i marginesem</h1> <br>
+        <img src="Różnica pomiędzy paddingiem i marginesem.png">
